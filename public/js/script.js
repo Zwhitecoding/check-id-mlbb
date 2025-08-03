@@ -26,7 +26,7 @@
     
     // Show loading state
     const originalButtonText = $('#submit-button').html();
-    $('#submit-button').html('<div class="flex items-center justify-center"><i data-lucide="loader-2" class="mr-2 h-4 w-4 animate-spin"></i><span>Mengecek...</span></div>');
+    $('#submit-button').html('<div class="flex items-center justify-center"><i data-lucide="loader-2" class="mr-2 h-4 w-4 animate-spin"></i><span>CHECKING</span></div>');
     $('#submit-button').prop('disabled', true);
     lucide.createIcons();
     
